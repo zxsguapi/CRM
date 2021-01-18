@@ -14,9 +14,9 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     @Override
-    public User login(String name, String pwd) {
+    public User login(String inusr, String inpwd) {
 
-        User user = userDao.login(name, pwd);
-        return null;
+        User user = userDao.login(inusr, inpwd);
+        return user;
     }
 }

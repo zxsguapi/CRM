@@ -8,6 +8,7 @@ class Ler1ApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }

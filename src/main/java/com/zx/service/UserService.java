@@ -4,5 +4,5 @@ import com.zx.pojo.User;
 
 public interface UserService {
 
-    User login(String name,String pwd);
+    User login(String inusr,String inpwd);
 }
